@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>TAPS Tracker Prototype</title>
+    <link rel="stylesheet" type="text/css" href="css/taps.min.css">
+    </head>
+    <body>
+        <div class="container">
+        	<div class="row lookup">
+        		<div class="col-md-3"></div>
+        		<div class="col-md-6"><h2>TAPS Tracker</h2></div>
+        		<div class="col-md-3"></div>
+        	</div>
+        	<div class="row lookup">
+        		<div class="col-md-3"></div>
+        		<div class="col-md-6 well well-lg">
+        			<form>
+        			  <div class="form-group">
+        			    <label for="tapSearch">Invoice Number or Address</label>
+        			    <input type="text" class="form-control" id="tapSearch" placeholder="Please Enter Invoice Number or Address">
+        			  </div>
+        			  <button id="tapSearchSubmit" type="submit" class="btn btn-primary">Search</button>
+        			</form>
+        		</div>
+        		<div class="col-md-3"></div>
+        	</div>
+        	<div class="row">
+        		<div class="start col-md-12">
+                    <a id="home" href="#">
+                        <h2>&larr; TAPS Tracker Home</h2>
+                    </a>
+                </div>
+        	</div>
+        	<div class="row">
+        		<div id="grid" class="start" class="col-md-12">
+        		</div>
+        	</div>
+        </div>
+        <script src="js/taps.min.js"></script>
+    </body>
+</html>
